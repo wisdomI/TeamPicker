@@ -46,10 +46,15 @@ function App() {
           <div className="max-w-2xl w-full space-y-8 animate-fade-in">
             {/* Header */}
             <div className="text-center mb-8">
-              <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-electric-blue to-lime-green bg-clip-text text-transparent animate-pulse-sport">
+                <div className='flex flex-col items-center justify-center'>
+              <h1 className="text-6xl font-bold bg-gradient-to-r from-electric-blue to-lime-green bg-clip-text text-transparent animate-pulse-sport">
                 TeamShuffler Pro
               </h1>
-              <p className="text-white text-lg opacity-90">
+              <p className='text-white text-sm opacity-70'>
+                by Wisdom(ThePrincipalCodez)
+              </p>
+                </div>
+              <p className="text-white text-lg opacity-90 mt-8">
                 Create balanced teams from your player list
               </p>
             </div>
